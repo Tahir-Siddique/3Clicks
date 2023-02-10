@@ -1,6 +1,6 @@
 #  3-click Flow
 
-3-click flow is python library that generate a url on the basis of attributes like
+3-click flow is built using fast api that generate a url on the basis of attributes like
 
 ### vertical [required]
 
@@ -45,20 +45,18 @@ For example:  https://www.mediabuying.com?clickid=2da3fs455a
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements. Also make sure you are in virtual environment. You can follow the given steps.
 
 ```bash
+python -m venv venv
+source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-## Usage
+## How to run?
 
-```python
-from actions.click_action import ClickActions
+To run this you just need to simply run this `command` after installing requirements
 
-
-action = ClickActions()
-
-action.perform_3_click("mobiles", "AP1006343", "19829201",)
-action.stop()
+```bash
+python main.py
 ```
