@@ -1,0 +1,7 @@
+109
+110
+venv
+app.py
+requirements.txt
+actions
+*.pyc
