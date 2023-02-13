@@ -60,3 +60,11 @@ To run this you just need to simply run this `command` after installing requirem
 ```bash
 python main.py
 ```
+
+## How to run?
+
+To run the server by dingle command
+
+```bash
+bash run.sh
+```
