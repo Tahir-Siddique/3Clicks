@@ -63,7 +63,7 @@ python main.py
 
 ## How to run?
 
-To run the server by dingle command
+To run the server by single ngle command
 
 ```bash
 bash run.sh
